@@ -1,0 +1,22 @@
+{
+  "name": "padmap",
+  "version": "1.0.0",
+  "description": "A tool to locate free menstrual products on the UW campus.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirstenmg/padmap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirstenmg/padmap/issues"
+  },
+  "homepage": "https://github.com/kirstenmg/padmap#readme",
+  "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.15.3"
+  }
+}
