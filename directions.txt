@@ -1,0 +1,66 @@
+Walk northwest on the walkway.
+14 meters
+
+Turn left onto the walkway.
+9 meters
+
+Turn right onto the walkway.
+12 meters
+
+Turn left onto the walkway.
+91 meters
+
+Turn left onto Northeast Lewis Lane.
+7 meters
+
+Turn right onto the walkway.
+60 meters
+
+Turn right onto the walkway.
+3 meters
+
+Turn left onto the walkway.
+11 meters
+
+Turn right onto Drumheller Fountain Path.
+53 meters
+
+Turn right onto Rainier Vista Northeast.
+98 meters
+
+Turn left onto the walkway.
+22 meters
+
+Turn right onto the walkway.
+27 meters
+
+Turn left onto Northeast Grant Lane.
+47 meters
+
+Turn right onto the walkway.
+13 meters
+
+Bear left onto Northeast Grant Lane.
+51 meters
+
+Turn left onto the walkway.
+6 meters
+
+Turn right onto the walkway.
+15 meters
+
+Turn right onto the walkway.
+1 meters
+
+Turn left onto the walkway.
+103 meters
+
+Turn left onto the walkway.
+12 meters
+
+Turn left onto the walkway.
+51 meters
+
+Your destination is on the left.
+0 meters
+
