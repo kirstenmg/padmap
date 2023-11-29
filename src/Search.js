@@ -3,7 +3,6 @@ const token = require('./token.js');
 
 export function Search() {
     return (
-        <form>
             <SearchBox 
                 accessToken={token.MAPBOX_TOKEN} 
                 onRetrieve={handleRetrieve} 
@@ -11,7 +10,6 @@ export function Search() {
                     proximity: [-122.30505981879918, 47.65331281821765 ]
                 }}
                 />
-        </form>
     );
 }
 

@@ -9,16 +9,16 @@ const directionsService = mbxDirections(baseClient);
 // Start and end are coordinates of [latitute, longitude] (TODO: confirm)
 export function getNavigation(start, end) {
     const directionsRequest = {
-        profile: 'walking', // Choose the appropriate profile
+        profile: 'walking',
         waypoints: [
-            {coordinates: start}, // Starting point coordinates
-            {coordinates: end}     // Ending point coordinates
+            {coordinates: start},
+            {coordinates: end}
         ],
         steps: true, // Include step-by-step instructions
     };
 
     return directionsService.getDirections(directionsRequest).send().then(handleGetDirections).catch(err => {
-        console.log(err.message);
+        console.error(err.message);
     });
 }
 

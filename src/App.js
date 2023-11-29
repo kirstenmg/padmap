@@ -11,7 +11,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <form>
         <Search/>
+        </form>
       </header>
     </div>
   );
