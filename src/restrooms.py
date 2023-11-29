@@ -23,6 +23,7 @@ def allgender_and_ada(restrooms):
         # Check if there is a * to mark ADA accessibility in the restrooms
         # marked as all-gender
         return "*" in split[1]
+    return False
 
 def classify_restrooms(restrooms):
     if "All-gender restroom" in restrooms:
@@ -42,7 +43,8 @@ def classify_restrooms(restrooms):
 
 
 fmp_data["contains_ADAallgender"] = fmp_data["Rooms"].apply(allgender_and_ada)
+fmp_data.drop("Rooms", axis=1, inplace=True)
 
-fmp_data["single"], fmp_data["allgender"], fmp_data["ADA"] = zip(*fmp_data["Rooms"].apply(classify_restrooms))
+# fmp_data["single"], fmp_data["allgender"], fmp_data["ADA"] = zip(*fmp_data["Rooms"].apply(classify_restrooms))
 
 print(fmp_data.to_json(orient="index", indent=2, force_ascii=False))

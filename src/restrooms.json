@@ -1,0 +1,537 @@
+{
+  "Aerospace Engineering Research Building":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Allen Library":{
+    "contains_ADA":true,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Anderson Hall":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Architecture Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":true
+  },
+  "Art Building":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Atmospheric Sciences - Geophysics Building":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Bagley Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Bank of America Executive Education Center":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":true
+  },
+  "Benson Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Bill & Melinda Gates Center for Computer Science & Engineering":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Bloedel Hall":{
+    "contains_ADA":true,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Brooklyn Trail Building":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Ceramic and Metal Arts Building":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Chemistry Building":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Chemistry Library":{
+    "contains_ADA":true,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Clark Hall":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Communications Building":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Community Design Center":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Condon Hall":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Cunningham Hall":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Dempsey Hall":{
+    "contains_ADA":true,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Denny Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Eagleson Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":true
+  },
+  "Electrical & Computer Engineering Building":{
+    "contains_ADA":true,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Engineering Annex":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Engineering Library":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Ethnic Cultural Center":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":true
+  },
+  "Ethnic Cultural Theater \/ Instructional Center":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Fishery Sciences Building":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Fisheries Research and Teaching Building":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Floyd and Delores Jones Playhouse Theater":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Fluke Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Foege (William H.) Bioengineering Building":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Foege (William H.) Genome Sciences Building":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Founders Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":true
+  },
+  "Gerberding Hall":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Gould Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":true
+  },
+  "Gowen Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Guggenheim Annex":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":true
+  },
+  "Guggenheim Hall":{
+    "contains_ADA":true,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Guthrie Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Hall Health Center":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Hans Rosling Center for Population Health":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":true
+  },
+  "Health Sciences Center - A Wing":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":true
+  },
+  "Health Sciences Center - B Wing":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Health Sciences Center - BB Wing":{
+    "contains_ADA":true,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Health Sciences Center - D Wing":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Health Sciences Center - F Wing":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Health Sciences Center - G Wing":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Health Sciences Center - H Wing":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Health Sciences Center - I Wing":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Health Sciences Center - J Wing":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Health Sciences Center - K Wing":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Health Sciences Center - RR Wing":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Health Sciences Center - T Wing":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Health Sciences Education Building":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":true
+  },
+  "Hitchcock Hall":{
+    "contains_ADA":true,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Hughes Penthouse Theatre":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Hutchinson Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Institute on Human Development and Disability Clinic (IHDD)":{
+    "contains_ADA":true,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Institute Human Development & Disability South (IHDD South)":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":true
+  },
+  "Intellectual House":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Johnson Hall":{
+    "contains_ADA":true,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Kane Hall":{
+    "contains_ADA":true,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Kincaid Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Lewis Hall":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Life Sciences Building":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Life Sciences Greenhouse":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Loew Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Marine Studies Building":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Mary Gates Hall":{
+    "contains_ADA":true,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Meany Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":true
+  },
+  "Mechanical Engineering Building":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Miller Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Molecular Engineering & Sciences Building (MolES)":{
+    "contains_ADA":true,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "More Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Mueller Hall":{
+    "contains_ADA":true,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Music Building":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Nanoengineering & Sciences Building":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "North Physics Laboratory":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "North Physics Laboratory (Cyclotron Building)":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Ocean Sciences Building":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Oceanography Teaching Building":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Odegaard Undergraduate Library (OUGL)":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "PACCAR Hall":{
+    "contains_ADA":true,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Padelford Hall":{
+    "contains_ADA":true,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Parrington Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":true
+  },
+  "Paul G. Allen Center for Computer Science & Engineering":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Physics \/ Astronomy Auditorium":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Physics \/ Astronomy Building":{
+    "contains_ADA":true,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Physics \/ Astronomy Tower":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Raitt Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Roberts Hall":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Savery Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Schmitz Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Sieg Hall":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Smith Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Social Work Building \/ Speech & Hearing Sciences Building":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":true
+  },
+  "South Campus Center":{
+    "contains_ADA":true,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Suzzallo Library":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Theodor Jacobsen Observatory":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Thomson Hall":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "UW Tower":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  },
+  "Wilcox Hall":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "William H. Gates Hall":{
+    "contains_ADA":true,
+    "contains_allgender":true,
+    "contains_ADAallgender":true
+  },
+  "Wilson Ceramic Laboratory":{
+    "contains_ADA":false,
+    "contains_allgender":true,
+    "contains_ADAallgender":false
+  },
+  "Winkenwerder Forest Sciences Laboratory":{
+    "contains_ADA":false,
+    "contains_allgender":false,
+    "contains_ADAallgender":false
+  }
+}
