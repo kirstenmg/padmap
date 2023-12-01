@@ -1,8 +1,8 @@
 Setup:
 1. Install [node.js](https://nodejs.org/en/)
 2. Run `npm install`
-3. Set up a MapBox account. Put your API token in `token.js.sample` and rename it to `token.js`.
-4. Run `node index.js` to try the directions
+3. Set up a MapBox account. You should already have a public token on the [Access tokens](https://account.mapbox.com/access-tokens/) page, but you can make a new one if you want. Put your API token in `token.js.sample` and rename it to `token.js`.
+4. Run `npm start` to start the server.
 
 
 
