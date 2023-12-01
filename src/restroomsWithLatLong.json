@@ -1,0 +1,703 @@
+{
+  "Aerospace Engineering Research Building": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.6539724,
+    "longitude": -122.30581467567605
+  },
+  "Allen Library": {
+    "contains_ADA": true,
+    "contains_allgender": false,
+    "contains_ADAallgender": false
+  },
+  "Anderson Hall": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.6517543,
+    "longitude": -122.30760030941934
+  },
+  "Architecture Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": true,
+    "latitude": 47.654560950000004,
+    "longitude": -122.31096413672937
+  },
+  "Art Building": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.6584092,
+    "longitude": -122.306690649274
+  },
+  "Atmospheric Sciences - Geophysics Building": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.6539911,
+    "longitude": -122.30940410471038
+  },
+  "Bagley Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.653475349999994,
+    "longitude": -122.30885055715963
+  },
+  "Bank of America Executive Education Center": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": true,
+    "latitude": 47.6595356,
+    "longitude": -122.30775184847334
+  },
+  "Benson Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.653009350000005,
+    "longitude": -122.30953355147014
+  },
+  "Bill & Melinda Gates Center for Computer Science & Engineering": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.65288435,
+    "longitude": -122.30447402318573
+  },
+  "Bloedel Hall": {
+    "contains_ADA": true,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.6319272,
+    "longitude": -122.3217654
+  },
+  "Brooklyn Trail Building": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.65467889999999,
+    "longitude": -122.3147645136583
+  },
+  "Ceramic and Metal Arts Building": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.6598273,
+    "longitude": -122.29225294924824
+  },
+  "Chemistry Building": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.6529695,
+    "longitude": -122.3083586960175
+  },
+  "Chemistry Library": {
+    "contains_ADA": true,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.65370635,
+    "longitude": -122.30996115422882
+  },
+  "Clark Hall": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.6576498,
+    "longitude": -122.30487053669802
+  },
+  "Communications Building": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false
+  },
+  "Community Design Center": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.655231400000005,
+    "longitude": -122.31360435755252
+  },
+  "Condon Hall": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.656643200000005,
+    "longitude": -122.3161290711762
+  },
+  "Cunningham Hall": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.6572237,
+    "longitude": -122.31107707633588
+  },
+  "Dempsey Hall": {
+    "contains_ADA": true,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.6591117,
+    "longitude": -122.30780520553859
+  },
+  "Denny Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.65840235,
+    "longitude": -122.30882302144875
+  },
+  "Eagleson Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": true,
+    "latitude": 47.6581044,
+    "longitude": -122.31240970272181
+  },
+  "Electrical & Computer Engineering Building": {
+    "contains_ADA": true,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.65357745,
+    "longitude": -122.30630373246166
+  },
+  "Engineering Annex": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.653684,
+    "longitude": -122.30431882390022
+  },
+  "Engineering Library": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.65463045,
+    "longitude": -122.3045005272887
+  },
+  "Ethnic Cultural Center": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": true,
+    "latitude": 47.65508825,
+    "longitude": -122.31483870794416
+  },
+  "Ethnic Cultural Theater / Instructional Center": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.6551398,
+    "longitude": -122.31419083200203
+  },
+  "Fishery Sciences Building": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false
+  },
+  "Fisheries Research and Teaching Building": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false
+  },
+  "Floyd and Delores Jones Playhouse Theater": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.65669935,
+    "longitude": -122.31359664404299
+  },
+  "Fluke Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.65584105000001,
+    "longitude": -122.30322094835054
+  },
+  "Foege (William H.) Bioengineering Building": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false
+  },
+  "Foege (William H.) Genome Sciences Building": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.65211535,
+    "longitude": -122.31306710243831
+  },
+  "Founders Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": true,
+    "latitude": 47.65881855,
+    "longitude": -122.30706465938448
+  },
+  "Gerberding Hall": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.65527815,
+    "longitude": -122.30930294417439
+  },
+  "Gould Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": true,
+    "latitude": 47.65491475,
+    "longitude": -122.3127354642111
+  },
+  "Gowen Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.65633375,
+    "longitude": -122.30769799955775
+  },
+  "Guggenheim Annex": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": true,
+    "latitude": 47.65459455,
+    "longitude": -122.30643785122548
+  },
+  "Guggenheim Hall": {
+    "contains_ADA": true,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.6542447,
+    "longitude": -122.30629106929857
+  },
+  "Guthrie Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.6540236,
+    "longitude": -122.3108994910935
+  },
+  "Hall Health Center": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.6561152,
+    "longitude": -122.30408518081703
+  },
+  "Hans Rosling Center for Population Health": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": true,
+    "latitude": 47.65443265,
+    "longitude": -122.311710306765
+  },
+  "Health Sciences Center - A Wing": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": true
+  },
+  "Health Sciences Center - B Wing": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false
+  },
+  "Health Sciences Center - BB Wing": {
+    "contains_ADA": true,
+    "contains_allgender": false,
+    "contains_ADAallgender": false
+  },
+  "Health Sciences Center - D Wing": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false
+  },
+  "Health Sciences Center - F Wing": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false
+  },
+  "Health Sciences Center - G Wing": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false
+  },
+  "Health Sciences Center - H Wing": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false
+  },
+  "Health Sciences Center - I Wing": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false
+  },
+  "Health Sciences Center - J Wing": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false
+  },
+  "Health Sciences Center - K Wing": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false
+  },
+  "Health Sciences Center - RR Wing": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false
+  },
+  "Health Sciences Center - T Wing": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false
+  },
+  "Health Sciences Education Building": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": true,
+    "latitude": 47.651638250000005,
+    "longitude": -122.31052174873992
+  },
+  "Hitchcock Hall": {
+    "contains_ADA": true,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.651915450000004,
+    "longitude": -122.31152445126361
+  },
+  "Hughes Penthouse Theatre": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.66070905,
+    "longitude": -122.30813667299452
+  },
+  "Hutchinson Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.659614399999995,
+    "longitude": -122.3066380432315
+  },
+  "Institute on Human Development and Disability Clinic (IHDD)": {
+    "contains_ADA": true,
+    "contains_allgender": false,
+    "contains_ADAallgender": false
+  },
+  "Institute Human Development & Disability South (IHDD South)": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": true
+  },
+  "Intellectual House": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.65830455,
+    "longitude": -122.30481351204979
+  },
+  "Johnson Hall": {
+    "contains_ADA": true,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.65444525,
+    "longitude": -122.30876411294844
+  },
+  "Kane Hall": {
+    "contains_ADA": true,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.65660065,
+    "longitude": -122.30917459732392
+  },
+  "Kincaid Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.65265385,
+    "longitude": -122.3106158603518
+  },
+  "Lewis Hall": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.658849149999995,
+    "longitude": -122.30539120462889
+  },
+  "Life Sciences Building": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.6520671,
+    "longitude": -122.3097071697334
+  },
+  "Life Sciences Greenhouse": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 33.389488,
+    "longitude": -111.87140997511177
+  },
+  "Loew Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.654339750000005,
+    "longitude": -122.30452377420654
+  },
+  "Marine Studies Building": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.6523809,
+    "longitude": -122.31489647238968
+  },
+  "Mary Gates Hall": {
+    "contains_ADA": true,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.654873050000006,
+    "longitude": -122.30780385704517
+  },
+  "Meany Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": true,
+    "latitude": 47.6556645,
+    "longitude": -122.3106617072553
+  },
+  "Mechanical Engineering Building": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.653687649999995,
+    "longitude": -122.30476033171067
+  },
+  "Miller Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.65720535,
+    "longitude": -122.30632088360872
+  },
+  "Molecular Engineering & Sciences Building (MolES)": {
+    "contains_ADA": true,
+    "contains_allgender": false,
+    "contains_ADAallgender": false
+  },
+  "More Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.65249475,
+    "longitude": -122.3048194109544
+  },
+  "Mueller Hall": {
+    "contains_ADA": true,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.652151950000004,
+    "longitude": -122.305422586899
+  },
+  "Music Building": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.6576649,
+    "longitude": -122.30584225726746
+  },
+  "Nanoengineering & Sciences Building": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false
+  },
+  "North Physics Laboratory": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.6601234,
+    "longitude": -122.3030610003939
+  },
+  "North Physics Laboratory (Cyclotron Building)": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false
+  },
+  "Ocean Sciences Building": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.651228,
+    "longitude": -122.31270012232072
+  },
+  "Oceanography Teaching Building": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.6502531,
+    "longitude": -122.31230453474096
+  },
+  "Odegaard Undergraduate Library (OUGL)": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false
+  },
+  "PACCAR Hall": {
+    "contains_ADA": true,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.659092799999996,
+    "longitude": -122.30866863667042
+  },
+  "Padelford Hall": {
+    "contains_ADA": true,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.65695895,
+    "longitude": -122.30427846214602
+  },
+  "Parrington Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": true,
+    "latitude": 47.657437099999996,
+    "longitude": -122.31025379969006
+  },
+  "Paul G. Allen Center for Computer Science & Engineering": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.653232,
+    "longitude": -122.30589612560436
+  },
+  "Physics / Astronomy Auditorium": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.652874999999995,
+    "longitude": -122.31110125357833
+  },
+  "Physics / Astronomy Building": {
+    "contains_ADA": true,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.65359865,
+    "longitude": -122.31130550037997
+  },
+  "Physics / Astronomy Tower": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.65338115,
+    "longitude": -122.31180379652821
+  },
+  "Raitt Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.65790545,
+    "longitude": -122.30728247441093
+  },
+  "Roberts Hall": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.65204865,
+    "longitude": -122.30504063362112
+  },
+  "Savery Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.6571225,
+    "longitude": -122.30841714287584
+  },
+  "Schmitz Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.656469799999996,
+    "longitude": -122.31270835458191
+  },
+  "Sieg Hall": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.654894049999996,
+    "longitude": -122.3064864259403
+  },
+  "Smith Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.6566572,
+    "longitude": -122.30711333875803
+  },
+  "Social Work Building / Speech & Hearing Sciences Building": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": true,
+    "latitude": 47.65747125,
+    "longitude": -122.31248463502995
+  },
+  "South Campus Center": {
+    "contains_ADA": true,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.649509550000005,
+    "longitude": -122.31090269865652
+  },
+  "Suzzallo Library": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.655809399999995,
+    "longitude": -122.30805331956198
+  },
+  "Theodor Jacobsen Observatory": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false
+  },
+  "Thomson Hall": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.65650425,
+    "longitude": -122.30574666694466
+  },
+  "UW Tower": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.660589099999996,
+    "longitude": -122.31580360270397
+  },
+  "Wilcox Hall": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.651841149999996,
+    "longitude": -122.3044963416678
+  },
+  "William H. Gates Hall": {
+    "contains_ADA": true,
+    "contains_allgender": true,
+    "contains_ADAallgender": true,
+    "latitude": 47.659182900000005,
+    "longitude": -122.31088007542547
+  },
+  "Wilson Ceramic Laboratory": {
+    "contains_ADA": false,
+    "contains_allgender": true,
+    "contains_ADAallgender": false,
+    "latitude": 47.6516781,
+    "longitude": -122.304846049757
+  },
+  "Winkenwerder Forest Sciences Laboratory": {
+    "contains_ADA": false,
+    "contains_allgender": false,
+    "contains_ADAallgender": false,
+    "latitude": 47.6513942,
+    "longitude": -122.30686620526187
+  }
+}
