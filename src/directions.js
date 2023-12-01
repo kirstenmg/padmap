@@ -6,7 +6,19 @@ const mbxDirections = require('@mapbox/mapbox-sdk/services/directions')
 const baseClient = mbxClient({ accessToken: token.MAPBOX_TOKEN });
 const directionsService = mbxDirections(baseClient);
 
-// Start and end are coordinates of [latitute, longitude] (TODO: confirm)
+// Start and end are objects of {latitute, longitude}
+export function getAccessMapLink(start, end) {
+    return "https://www.accessmap.app/dir?wp="
+        + start.longitude + "_" + start.latitude // Start
+        + "%27"
+        + end.longitude + "_" + end.latitude // End
+        + "&region=wa.seattle"
+        + "&sa=" + 0 // Street avoidance
+        + "&mu=" + 0.15 // Maximum uphill steepness
+        + "&md=" + 0.15 // Maximum downhill steepness
+        + "&ab=1"; // Avoid barriers
+}
+
 export function getNavigation(start, end) {
     const directionsRequest = {
         profile: 'walking',
