@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { getAccessMapLink, getNavigation } from './directions';
 import { Search } from './Search';
+import GetDirectionsButton from './GetDirectionsButton'; 
 
 const start = [-122.30505981879918, 47.65331281821765 ]
 const end = [-122.31176697575529, 47.654660809752976 ]
@@ -18,6 +19,7 @@ function App() {
         <Search/>
         </form>
         <a href={getAccessMapLink(startObject, endObject)} target="_blank">Directions</a>
+        <GetDirectionsButton />
       </header>
     </div>
   );
