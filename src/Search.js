@@ -19,10 +19,3 @@ export function Search(props) {
                 />
     );
 }
-<<<<<<< HEAD
-
-function handleRetrieve(response) {
-    console.log(response.features[0].geometry.coordinates);
-}
-=======
->>>>>>> 42f245d32164a989a807b65a64d486c6f0a1767c
