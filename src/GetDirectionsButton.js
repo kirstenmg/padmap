@@ -1,8 +1,8 @@
 import React from 'react';
 
-const GetDirectionsButton = () => {
+const GetDirectionsButton = ({ onClick }) => {
     return (
-        <button type="submit" className="get-directions-button" onClick={() => { /* no action */ }}>
+        <button type="submit" className="get-directions-button" onClick={onClick}>
             Get Directions
         </button>
     );
