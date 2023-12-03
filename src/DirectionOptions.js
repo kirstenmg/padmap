@@ -1,12 +1,7 @@
 import { Search } from "./Search";
 import { useState } from "react";
 import GetDirectionsButton from "./GetDirectionsButton";
-import { getAccessMapLink } from './directions';
 import {DisplayLinks} from "./DisplayLinks";
-
-// Dummy start and end to test AccessMap URL generation
-const startObject = {longitude: -122.30505981879918, latitude: 47.65331281821765}
-const endObject = {longitude:-122.31176697575529, latitude: 47.654660809752976}
 
 export default function DirectionOptions() {
     // State to manage direction options: start coordinates, isAllGender and isADA
@@ -52,7 +47,7 @@ export default function DirectionOptions() {
         <form onSubmit={handleSubmit}>
             <Search handleCoordinates={handleCoordinates}/>
             <GetDirectionsButton onClick={handleGetDirectionsClick}/>
-            {showDirections && <DisplayLinks coordinatesArray={coordinatesArray}/>}
+            {showDirections && <DisplayLinks coordinatesArray={coordinatesArray} startCoordinates={directionOptions.startCoordinates}/>}
         </form>
     )
 }
