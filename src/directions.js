@@ -36,6 +36,8 @@ export function getNavigation(start, end) {
 
 function handleGetDirections(response) {
     const directions = response.body;
+    console.log("b\n");
+    console.log(response.body);
     const directionStr = []
     const legs = directions.routes[0].legs;
     for (let i = 0; i < legs.length; i++) {
@@ -47,5 +49,6 @@ function handleGetDirections(response) {
             );
         }
     }
+    // console.log(directionStr);
     return directionStr;
 }
