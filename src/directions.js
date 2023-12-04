@@ -16,7 +16,7 @@ export function getAccessMapLink(start, end) {
         + "&sa=" + 0 // Street avoidance
         + "&mu=" + 0.15 // Maximum uphill steepness
         + "&md=" + 0.15 // Maximum downhill steepness
-        + "&ab=1"; // Avoid barriers
+        + "&ab=0"; // Don't avoid barriers
 }
 
 export function getNavigation(start, end) {
