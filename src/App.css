@@ -52,7 +52,12 @@
   transition: background-color 0.3s, transform 0.3s;
 }
 
-.get-directions-button:hover {
+.get-directions-button:disabled {
+  background-color: #494949;
+  cursor: not-allowed;
+}
+
+.get-directions-button:hover.get-directions-button:enabled{
   background-color: #45a049; /* Darker shade of green */
   transform: scale(1.05); /* Slightly increase size */
 }
