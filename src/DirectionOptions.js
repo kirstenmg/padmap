@@ -1,12 +1,11 @@
 import { Search } from "./Search";
 import { useState } from "react";
-import GetDirectionsButton from "./GetDirectionsButton";
 import {DisplayLinks} from "./DisplayLinks";
 
 export default function DirectionOptions() {
     // State to manage direction options: start coordinates, isAllGender and isADA
     const [directionOptions, setDirectionOptions] = useState({
-        startCoordinates: [],
+        startCoordinates: null,
         isAllGender: false,
         isADA: false,
     });
@@ -17,14 +16,13 @@ export default function DirectionOptions() {
     // State to manage visibility of DisplayLinks component
     const [showDirections, setShowDirections] = useState(false);
 
-    // Function to handle DisplayLink visibility
-    const handleGetDirectionsClick = () => {
-        setShowDirections(true);
-    };
-
     // Function to handle search box and filter inputs
     const handleCoordinates = (coordinates) => {
-        setDirectionOptions({...directionOptions, startCoordinates: coordinates});
+        const startCoordinates = {
+            longitude: coordinates[0],
+            latitude: coordinates[1]
+        };
+        setDirectionOptions({...directionOptions, startCoordinates});
     }
 
     // Function to handle form submission
@@ -45,8 +43,12 @@ export default function DirectionOptions() {
 
     return (
         <form onSubmit={handleSubmit}>
-            <Search handleCoordinates={handleCoordinates}/>
-            <GetDirectionsButton onClick={handleGetDirectionsClick}/>
+            <Search handleCoordinates={handleCoordinates} value=""/>
+            <button
+                disabled={!directionOptions.startCoordinates}
+                type="submit"
+                className="get-directions-button"
+            >Get Directions</button>
             {showDirections && <DisplayLinks coordinatesArray={coordinatesArray} startCoordinates={directionOptions.startCoordinates}/>}
         </form>
     )
