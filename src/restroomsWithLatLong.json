@@ -9,7 +9,9 @@
   "Allen Library": {
     "contains_ADA": true,
     "contains_allgender": false,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.6557738,
+    "longitude": -122.3104176
   },
   "Anderson Hall": {
     "contains_ADA": false,
@@ -112,7 +114,9 @@
   "Communications Building": {
     "contains_ADA": true,
     "contains_allgender": true,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.6570315,
+    "longitude": -122.3075268
   },
   "Community Design Center": {
     "contains_ADA": false,
@@ -194,12 +198,16 @@
   "Fishery Sciences Building": {
     "contains_ADA": true,
     "contains_allgender": true,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.6531416,
+    "longitude": -122.3189269
   },
   "Fisheries Research and Teaching Building": {
     "contains_ADA": false,
     "contains_allgender": false,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.6524847,
+    "longitude": -122.3182563
   },
   "Floyd and Delores Jones Playhouse Theater": {
     "contains_ADA": false,
@@ -218,7 +226,9 @@
   "Foege (William H.) Bioengineering Building": {
     "contains_ADA": true,
     "contains_allgender": true,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.6524584,
+    "longitude": -122.3122116
   },
   "Foege (William H.) Genome Sciences Building": {
     "contains_ADA": true,
@@ -293,62 +303,86 @@
   "Health Sciences Center - A Wing": {
     "contains_ADA": true,
     "contains_allgender": true,
-    "contains_ADAallgender": true
+    "contains_ADAallgender": true,
+    "longitude": -122.3083,
+    "latitude": 47.6502
   },
   "Health Sciences Center - B Wing": {
     "contains_ADA": false,
     "contains_allgender": true,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.6498,
+    "longitude": -122.3088
   },
   "Health Sciences Center - BB Wing": {
     "contains_ADA": true,
     "contains_allgender": false,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.6497,
+    "longitude": -122.3078
   },
   "Health Sciences Center - D Wing": {
     "contains_ADA": false,
     "contains_allgender": true,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.6503,
+    "longitude": -122.3091
   },
   "Health Sciences Center - F Wing": {
     "contains_ADA": false,
     "contains_allgender": true,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.6506,
+    "longitude": -122.3097
   },
   "Health Sciences Center - G Wing": {
     "contains_ADA": false,
     "contains_allgender": true,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.6508,
+    "longitude": -122.3097
   },
   "Health Sciences Center - H Wing": {
     "contains_ADA": false,
     "contains_allgender": false,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.6505,
+    "longitude": -122.3105
   },
   "Health Sciences Center - I Wing": {
     "contains_ADA": false,
     "contains_allgender": true,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.6511,
+    "longitude": -122.3108
   },
   "Health Sciences Center - J Wing": {
     "contains_ADA": false,
     "contains_allgender": false,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "longitude": -122.3111,
+    "latitude": 47.6513
   },
   "Health Sciences Center - K Wing": {
     "contains_ADA": false,
     "contains_allgender": false,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "longitude": -122.3114,
+    "latitude": 47.651
   },
   "Health Sciences Center - RR Wing": {
     "contains_ADA": false,
     "contains_allgender": true,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.6495,
+    "longitude": -122.3081
   },
   "Health Sciences Center - T Wing": {
     "contains_ADA": false,
     "contains_allgender": true,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "longitude": -122.3092,
+    "latitude": 47.6508
   },
   "Health Sciences Education Building": {
     "contains_ADA": true,
@@ -381,12 +415,16 @@
   "Institute on Human Development and Disability Clinic (IHDD)": {
     "contains_ADA": true,
     "contains_allgender": false,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.648643,
+    "longitude": -122.3080649
   },
   "Institute Human Development & Disability South (IHDD South)": {
     "contains_ADA": true,
     "contains_allgender": true,
-    "contains_ADAallgender": true
+    "contains_ADAallgender": true,
+    "latitude": 47.6480835,
+    "longitude": -122.3092093
   },
   "Intellectual House": {
     "contains_ADA": false,
@@ -482,7 +520,9 @@
   "Molecular Engineering & Sciences Building (MolES)": {
     "contains_ADA": true,
     "contains_allgender": false,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.6544,
+    "longitude": -122.3099
   },
   "More Hall": {
     "contains_ADA": true,
@@ -508,7 +548,9 @@
   "Nanoengineering & Sciences Building": {
     "contains_ADA": false,
     "contains_allgender": true,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.6546,
+    "longitude": -122.31
   },
   "North Physics Laboratory": {
     "contains_ADA": false,
@@ -520,7 +562,9 @@
   "North Physics Laboratory (Cyclotron Building)": {
     "contains_ADA": false,
     "contains_allgender": false,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.6591513,
+    "longitude": -122.3047553
   },
   "Ocean Sciences Building": {
     "contains_ADA": false,
@@ -539,7 +583,9 @@
   "Odegaard Undergraduate Library (OUGL)": {
     "contains_ADA": true,
     "contains_allgender": true,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.6564806,
+    "longitude": -122.3103636
   },
   "PACCAR Hall": {
     "contains_ADA": true,
@@ -656,7 +702,9 @@
   "Theodor Jacobsen Observatory": {
     "contains_ADA": false,
     "contains_allgender": false,
-    "contains_ADAallgender": false
+    "contains_ADAallgender": false,
+    "latitude": 47.6604055,
+    "longitude": -122.3092322
   },
   "Thomson Hall": {
     "contains_ADA": false,
