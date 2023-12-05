@@ -2,7 +2,7 @@ import { Search } from "./Search";
 import { useState } from "react";
 import GetDirectionsButton from "./GetDirectionsButton";
 import {DisplayLinks} from "./DisplayLinks";
-import { filterRestrooms, getNClosestBuildings } from "./filterRestrooms";
+import { getNClosestBuildings } from "./findRestrooms";
 
 export default function DirectionOptions() {
     // State to manage direction options: start coordinates, isAllGender and isADA
@@ -36,8 +36,9 @@ export default function DirectionOptions() {
         event.preventDefault();
         console.log(directionOptions);
 
-        // TODO: Filter, find the closest restrooms, and display them
-        const closestBuildings = getNClosestBuildings(
+        // Get closest buildings with restrooms satisfying the
+        // given filters
+        getNClosestBuildings(
             directionOptions.startCoordinates,
             directionOptions.isADA,
             directionOptions.isAllGender,
@@ -46,12 +47,6 @@ export default function DirectionOptions() {
             setCoordinatesArray(result);
             setShowDirections(true);
         }).catch((err) => console.error(err));
-
-        // Array of 5 coordinates
-        const newCoordinatesArray = [
-            { latitude: 47.654660809752976, longitude: -122.31176697575529, distance: 722, time: 13, building: 'Hans Rosling Center for Population Health'},
-            { latitude: 47.653475349999994, longitude: -122.30885055715963, distance: 2092, time: 5, building: 'Bagley Hall'},
-        ];
     }
 
     return (

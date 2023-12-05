@@ -15,7 +15,7 @@ export function DisplayLinks({ coordinatesArray, startCoordinates }) {
                 Directions to {building}
             </a>
             <p> Time: {time} </p>
-            <p> Distance: {distance} meters </p>
+            <p> Distance: {Math.round(distance)} meters </p>
         </li>
     ));
 
