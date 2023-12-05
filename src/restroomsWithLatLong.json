@@ -433,9 +433,7 @@
   "Life Sciences Greenhouse": {
     "contains_ADA": false,
     "contains_allgender": true,
-    "contains_ADAallgender": false,
-    "latitude": 33.389488,
-    "longitude": -111.87140997511177
+    "contains_ADAallgender": false
   },
   "Loew Hall": {
     "contains_ADA": true,

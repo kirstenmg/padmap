@@ -12,10 +12,10 @@ export function DisplayLinks({ coordinatesArray, startCoordinates }) {
                 href={getAccessMapLink(startCoordinates, { latitude, longitude })}
                 target="_blank"
             >
-                Option {index + 1}: Directions to {building}
+                Directions to {building}
             </a>
             <p> Time: {time} </p>
-            <p> Distance: {distance} </p>
+            <p> Distance: {distance} meters </p>
         </li>
     ));
 
