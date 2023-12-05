@@ -1,9 +1,9 @@
 import React from "react";
 import {getAccessMapLink} from "./directions";
 
+// coordinatesArray: an array of {latitude, longitude, distance, time, building} objects
+// startCoordinates: an object of {latitude, longitude}
 export function DisplayLinks({ coordinatesArray, startCoordinates }) {
-    // Assume coordinatesArray is an array of {latitude, longitude, distance, time, building} objects
-
     // Map over the array to create links for each set of coordinates
     const links = coordinatesArray.map(({ latitude, longitude, distance, time, building }, index) => (
         <li>

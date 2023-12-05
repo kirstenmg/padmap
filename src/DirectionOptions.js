@@ -1,13 +1,12 @@
 import { Search } from "./Search";
 import { useState } from "react";
-import GetDirectionsButton from "./GetDirectionsButton";
 import {DisplayLinks} from "./DisplayLinks";
 import { getNClosestBuildings } from "./findRestrooms";
 
 export default function DirectionOptions() {
     // State to manage direction options: start coordinates, isAllGender and isADA
     const [directionOptions, setDirectionOptions] = useState({
-        startCoordinates: {}, // Object with latitude and longitude
+        startCoordinates: null, // Object with latitude and longitude
         isAllGender: false,
         isADA: false,
     });
@@ -18,11 +17,6 @@ export default function DirectionOptions() {
     // State to manage visibility of DisplayLinks component
     const [showDirections, setShowDirections] = useState(false);
 
-    // Function to handle DisplayLink visibility
-    const handleGetDirectionsClick = () => {
-        setShowDirections(true);
-    };
-
     // Function to handle search box input
     // Takes in an array of [longitude, latitude]
     const handleCoordinates = (coordinates) => {
@@ -30,6 +24,15 @@ export default function DirectionOptions() {
         setDirectionOptions({...directionOptions, startCoordinates: 
             {longitude: coordinates[0], latitude: coordinates[1]}});
     }
+
+    // Function to handle checkbox changes
+    const handleCheckboxChange = (event) => {
+        const { name, checked } = event.target;
+        setDirectionOptions((prevOptions) => ({
+        ...prevOptions,
+        [name]: checked,
+        }));
+    };
 
     // Function to handle form submission
     const handleSubmit = (event) => {
@@ -47,13 +50,49 @@ export default function DirectionOptions() {
             setCoordinatesArray(result);
             setShowDirections(true);
         }).catch((err) => console.error(err));
-    }
-
+    }  
+    
     return (
-        <form onSubmit={handleSubmit}>
-            <Search handleCoordinates={handleCoordinates}/>
-            <GetDirectionsButton onClick={handleGetDirectionsClick}/>
-            {showDirections && <DisplayLinks coordinatesArray={coordinatesArray} startCoordinates={directionOptions.startCoordinates}/>}
-        </form>
-    )
+    <form onSubmit={handleSubmit} aria-labelledby="form-heading">
+      <h2 id="form-heading">Restroom Finder</h2>
+      <Search handleCoordinates={handleCoordinates} value="" />
+      <div>
+        <label htmlFor="all-gender-checkbox">
+          <input
+            type="checkbox"
+            name="isAllGender"
+            checked={directionOptions.isAllGender}
+            onChange={handleCheckboxChange}
+            aria-checked={directionOptions.isAllGender}
+          />
+          All Gender Restroom
+        </label>
+      </div>
+      <div>
+        <label htmlFor="ada-checkbox">
+          <input
+            type="checkbox"
+            name="isADA"
+            checked={directionOptions.isADA}
+            onChange={handleCheckboxChange}
+            aria-checked={directionOptions.isADA}
+          />
+          ADA Accessible Restroom
+        </label>
+      </div>
+      <button
+        disabled={!directionOptions.startCoordinates}
+        type="submit"
+        className="get-directions-button"
+      >
+        Get Directions
+      </button>
+      {showDirections && (
+        <DisplayLinks
+          coordinatesArray={coordinatesArray}
+          startCoordinates={directionOptions.startCoordinates}
+        />
+      )}
+    </form>
+  );
 }
