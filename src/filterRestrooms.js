@@ -1,22 +1,20 @@
-// import restroomData from "./utils/newrestrooms.json";
-import restroomData from "./utils/restrooms.json";
+import restroomData from "./restroomsWithLatLong.json";
 
 export function filterRestrooms(requireADA, requireAllGender) {
-    // console.log(typeof restroomData)
-    // console.log(Object.keys(restroomData));  // returns a list of buildings
-    // let result;
-    if (requireADA && requireAllGender) {
-        return Object.keys(restroomData).filter(buildingName => restroomData[buildingName].contains_ADAallgender === true);
-    // console.log(hmm);
-        // let result = restroomData.filter(function (entry) {
-        //     return entry.contains_ADAallgender === true;
-        // });
-        // console.log(result);     
-    } else if (requireADA) {
-        return Object.keys(restroomData).filter(buildingName => restroomData[buildingName].contains_ADA === true);
-    } else if (requireAllGender) {
-        return Object.keys(restroomData).filter(buildingName => restroomData[buildingName].contains_ADA === true);
-    } else {
-        return Object.keys(restroomData);
-    }
+    // Turn the dictionary into a list of entries
+    var restroomDataList = Object.entries(restroomData);
+
+    // Filter out buildings for which we don't have coordinates
+    restroomDataList = restroomDataList.filter(([_, data]) => {
+        return 'longitude' in data
+    });
+    
+    // Filter out buildings that don't meet the user criteria
+    restroomDataList = restroomDataList.filter(([_, data]) => {
+        return (!requireADA || data.contains_ADA)
+        && (!requireAllGender || data.contains_allgender)
+        && (!(requireADA && requireAllGender) || data.contains_ADAallgender)
+    });
+
+    return restroomDataList;
 }
