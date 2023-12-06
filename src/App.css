@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: #B9E192; /* Soft green background */
+  color: black; /* Black text */
+  font-family: 'Raleway', sans-serif;
 }
 
 .App-logo {
@@ -14,33 +17,26 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #B9E192; /* Soft blue background */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black; /* Black text */
+  font-family: 'Raleway';
 }
+
 
 .App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: black; /* Black link */
 }
 
 .get-directions-button {
-  background-color: #4CAF50; /* Green background */
+  background-color: #FAAF90; /* Pastel purple background */
   border: none;
-  color: black;
+  color: black; /* Black text */
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -49,18 +45,18 @@
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
-  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 20px;
 }
 
 .get-directions-button:hover.get-directions-button:enabled{
-  background-color: #45a049; /* Darker shade of green */
-  transform: scale(1.05); /* Slightly increase size */
+  background-color: #FAAF90; /* Slightly darker pastel purple */
+  transform: scale(1.05);
 }
 
 .reset-button {
-  background-color: red; /* Green background */
+  background-color: #B3C7F7; /* Another shade of pastel purple */
   border: none;
-  color: black;
+  color: black; /* Black text */
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -73,10 +69,65 @@
 }
 
 .reset-button:hover.reset-button:enabled{
-  background-color: darkred; /* Darker shade of green */
-  transform: scale(1.05); /* Slightly increase size */
+  background-color: #8BABF1; /* Lighter pastel purple */
+  transform: scale(1.05);
 }
 
-a {
-  color: yellow;
+.card-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #CFEBB6; /* Light background for cards */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: black; /* Black text */
+  font-family: 'Raleway';
+  position: relative;
+}
+
+.card a {
+  font-weight: bold;
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: red; /* Error message in red for visibility */
+  padding: 10px;
+}
+
+.checkbox-group {
+  margin-top: 20px;
+}
+
+.card-list {
+  list-style-type: none;
+  padding: 0;
+  counter-reset: card-counter; /* Create a new counter */
+}
+
+.card-number {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
