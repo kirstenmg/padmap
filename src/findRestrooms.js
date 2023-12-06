@@ -44,8 +44,6 @@ export async function getNClosestBuildings(startLocation, requireADA, requireAll
 
     restroomsWithDistances.sort((a, b) => a.distance - b.distance);
 
-    console.log(restroomsWithDistances);
-
     return restroomsWithDistances.slice(0, nClosest);
 }
 
