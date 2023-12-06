@@ -1,7 +1,7 @@
-import { Search } from "./Search";
-import { useState } from "react";
+import {Search} from "./Search";
+import {useState} from "react";
 import {DisplayLinks} from "./DisplayLinks";
-import { getNClosestBuildings } from "./findRestrooms";
+import {getNClosestBuildings} from "./findRestrooms";
 
 export default function DirectionOptions() {
     // State to manage direction options: start coordinates, isAllGender and isADA
@@ -18,31 +18,58 @@ export default function DirectionOptions() {
     // State to manage visibility of DisplayLinks component
     const [showDirections, setShowDirections] = useState(false);
 
+    // State to manage error message
+    const [errorMessage, setErrorMessage] = useState("");
+
+    // Function to handle resetting the page
+    const handleResetPage = () => {
+        setDirectionOptions({
+            startLocName: "",
+            startCoordinates: null,
+            isAllGender: false,
+            isADA: false,
+        });
+        setCoordinatesArray([]);
+        setShowDirections(false);
+        setErrorMessage("");
+    };
+
     // Function to handle search box input
     // Takes in the location name and an array of [longitude, latitude]
     const handleLocation = (name, coordinates) => {
         console.log(coordinates);
         setDirectionOptions({
-            ...directionOptions, 
+            ...directionOptions,
             startLocName: name,
-            startCoordinates: 
+            startCoordinates:
                 {longitude: coordinates[0], latitude: coordinates[1]},
         });
+
+        // Reset error message when the user starts typing again
+        setErrorMessage("");
     }
 
     // Function to handle checkbox changes
     const handleCheckboxChange = (event) => {
-        const { name, checked } = event.target;
+        const {name, checked} = event.target;
         setDirectionOptions((prevOptions) => ({
-        ...prevOptions,
-        [name]: checked,
+            ...prevOptions,
+            [name]: checked,
         }));
     };
 
     // Function to handle form submission
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log(directionOptions);
+
+        // Check if start location is selected
+        if (!directionOptions.startCoordinates) {
+            setErrorMessage("Please select a start location within UW campus");
+            return;
+        }
+
+        // Reset error message
+        setErrorMessage("");
 
         // Get closest buildings with restrooms satisfying the
         // given filters
@@ -55,52 +82,73 @@ export default function DirectionOptions() {
             setCoordinatesArray(result);
             setShowDirections(true);
         }).catch((err) => console.error(err));
-    }  
-    
+    }
+
     return (
-    <form onSubmit={handleSubmit} aria-labelledby="form-heading">
-        <h2 id="form-heading">Restroom Finder</h2>
-        <Search 
-            handleLocation={handleLocation}
-            value={directionOptions.startLocName}
-        />
-      <div>
-        <label htmlFor="all-gender-checkbox">
-          <input
-            type="checkbox"
-            name="isAllGender"
-            checked={directionOptions.isAllGender}
-            onChange={handleCheckboxChange}
-            aria-checked={directionOptions.isAllGender}
-          />
-          All Gender Restroom
-        </label>
-      </div>
-      <div>
-        <label htmlFor="ada-checkbox">
-          <input
-            type="checkbox"
-            name="isADA"
-            checked={directionOptions.isADA}
-            onChange={handleCheckboxChange}
-            aria-checked={directionOptions.isADA}
-          />
-          ADA Accessible Restroom
-        </label>
-      </div>
-      <button
-        disabled={!directionOptions.startCoordinates}
-        type="submit"
-        className="get-directions-button"
-      >
-        Get Directions
-      </button>
-      {showDirections && (
-        <DisplayLinks
-          coordinatesArray={coordinatesArray}
-          startCoordinates={directionOptions.startCoordinates}
-        />
-      )}
-    </form>
-  );
+        <form onSubmit={handleSubmit} aria-labelledby="form-heading">
+            <h1 id="form-heading">Pad Map</h1>
+            <h2 id="form-heading">Find free menstrual products near you!</h2>
+            <Search
+                handleLocation={handleLocation}
+                value={directionOptions.startLocName}
+            />
+            <div>
+                <label htmlFor="all-gender-checkbox">
+                    <input
+                        type="checkbox"
+                        name="isAllGender"
+                        checked={directionOptions.isAllGender}
+                        onChange={handleCheckboxChange}
+                        aria-checked={directionOptions.isAllGender}
+                    />
+                    All Gender Restroom
+                </label>
+            </div>
+            <div>
+                <label htmlFor="ada-checkbox">
+                    <input
+                        type="checkbox"
+                        name="isADA"
+                        checked={directionOptions.isADA}
+                        onChange={handleCheckboxChange}
+                        aria-checked={directionOptions.isADA}
+                    />
+                    ADA Accessible Restroom
+                </label>
+            </div>
+            <button
+                type="submit"
+                className="get-directions-button"
+            >
+                Get Directions
+            </button>
+            {errorMessage && (
+                <p
+                    className="error-message"
+                    role="alert"
+                    aria-live="assertive"
+                    style={{
+                        // Add styles for better visibility, for example, color and padding
+                        color: 'red',
+                        padding: '10px',
+                        // Add any additional styles as needed
+                    }}
+                >
+                    {errorMessage}
+                </p>
+            )}
+            <br/>
+            {showDirections && (
+                <button type="button" class="reset-button" onClick={handleResetPage}>
+                Try another start location
+            </button>
+            )}
+            {showDirections && (
+                <DisplayLinks
+                    coordinatesArray={coordinatesArray}
+                    startCoordinates={directionOptions.startCoordinates}
+                />
+            )}
+        </form>
+    );
 }

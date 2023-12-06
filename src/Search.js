@@ -16,7 +16,7 @@ export function Search(props) {
                             response.features[0].geometry.coordinates
                         )
                     }
-                } 
+                }
                 options={{
                     proximity: [-122.30505981879918, 47.65331281821765 ]
                 }}
