@@ -1,0 +1,46 @@
+/* DirectionOptions.css */
+.direction-options {
+    margin: 20px;
+}
+
+.direction-options form {
+    background: #e6e6e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.checkbox-group {
+    margin: 20px 0;
+}
+
+.checkbox-group label {
+    margin-right: 20px;
+    font-size: 16px;
+    color: #333; /* Softer color */
+}
+
+.get-directions-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px; /* More rounded */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.get-directions-button:disabled {
+    background-color: #494949;
+    cursor: not-allowed;
+}
+
+.get-directions-button:hover.get-directions-button:enabled {
+    background-color: #45a049;
+    transform: scale(1.05);
+}

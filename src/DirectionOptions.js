@@ -2,6 +2,8 @@ import { Search } from "./Search";
 import { useState } from "react";
 import {DisplayLinks} from "./DisplayLinks";
 import { getNClosestBuildings } from "./findRestrooms";
+import './DirectionOptions.css';
+import BuildingCard from './BuildingCard';
 
 export default function DirectionOptions() {
     // State to manage direction options: start coordinates, isAllGender and isADA
@@ -55,52 +57,52 @@ export default function DirectionOptions() {
             setCoordinatesArray(result);
             setShowDirections(true);
         }).catch((err) => console.error(err));
-    }  
-    
-    return (
-    <form onSubmit={handleSubmit} aria-labelledby="form-heading">
-        <h2 id="form-heading">Restroom Finder</h2>
+    }
+
+
+  return (
+    <div className="direction-options">
+      <form onSubmit={handleSubmit} aria-labelledby="form-heading">
         <Search 
-            handleLocation={handleLocation}
-            value={directionOptions.startLocName}
+          handleLocation={handleLocation}
+          value={directionOptions.startLocName}
         />
-      <div>
-        <label htmlFor="all-gender-checkbox">
-          <input
-            type="checkbox"
-            name="isAllGender"
-            checked={directionOptions.isAllGender}
-            onChange={handleCheckboxChange}
-            aria-checked={directionOptions.isAllGender}
+        <div className="checkbox-group">
+          <label htmlFor="all-gender-checkbox">
+            <input
+              type="checkbox"
+              name="isAllGender"
+              checked={directionOptions.isAllGender}
+              onChange={handleCheckboxChange}
+              id="all-gender-checkbox"
+            />
+            All Gender Restroom
+          </label>
+          <label htmlFor="ada-checkbox">
+            <input
+              type="checkbox"
+              name="isADA"
+              checked={directionOptions.isADA}
+              onChange={handleCheckboxChange}
+              id="ada-checkbox"
+            />
+            ADA Accessible Restroom
+          </label>
+        </div>
+        <button
+          disabled={!directionOptions.startCoordinates}
+          type="submit"
+          className="get-directions-button"
+        >
+          Get Directions
+        </button>
+        {showDirections && (
+          <DisplayLinks
+            coordinatesArray={coordinatesArray}
+            startCoordinates={directionOptions.startCoordinates}
           />
-          All Gender Restroom
-        </label>
-      </div>
-      <div>
-        <label htmlFor="ada-checkbox">
-          <input
-            type="checkbox"
-            name="isADA"
-            checked={directionOptions.isADA}
-            onChange={handleCheckboxChange}
-            aria-checked={directionOptions.isADA}
-          />
-          ADA Accessible Restroom
-        </label>
-      </div>
-      <button
-        disabled={!directionOptions.startCoordinates}
-        type="submit"
-        className="get-directions-button"
-      >
-        Get Directions
-      </button>
-      {showDirections && (
-        <DisplayLinks
-          coordinatesArray={coordinatesArray}
-          startCoordinates={directionOptions.startCoordinates}
-        />
-      )}
-    </form>
+        )}
+      </form>
+    </div>
   );
 }
