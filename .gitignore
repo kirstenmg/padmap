@@ -24,3 +24,5 @@ yarn-error.log*
 
 token.js
 .idea
+restroomsCoordinates.json
+fill_in_latitude_long.py

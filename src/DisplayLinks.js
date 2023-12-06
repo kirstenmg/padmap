@@ -14,8 +14,8 @@ export function DisplayLinks({ coordinatesArray, startCoordinates, accessMapPara
             >
                 Directions to {building}
             </a>
-            <p> Time: {time} </p>
-            <p> Distance: {Math.round(distance)} meters </p>
+            <p> This location is approximately {time} minutes away.
+                The distance is <b> {Math.round(distance)} meters </b>. </p>
         </li>
     ));
 

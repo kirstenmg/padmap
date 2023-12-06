@@ -68,11 +68,11 @@
     "longitude": -122.30447402318573
   },
   "Bloedel Hall": {
-    "contains_ADA": true,
-    "contains_allgender": false,
-    "contains_ADAallgender": false,
-    "latitude": 47.6319272,
-    "longitude": -122.3217654
+  "contains_ADA": true,
+  "contains_allgender": false,
+  "contains_ADAallgender": false,
+  "latitude": 47.6513759,
+  "longitude": -122.3129287
   },
   "Brooklyn Trail Building": {
     "contains_ADA": false,
