@@ -64,7 +64,7 @@ export default function DirectionOptions() {
 
         // Check if start location is selected
         if (!directionOptions.startCoordinates) {
-            setErrorMessage("Please select a start location within UW campus");
+            setErrorMessage("Please select a start location in Seattle");
             return;
         }
 
@@ -145,6 +145,7 @@ export default function DirectionOptions() {
             )}
             {showDirections && (
                 <DisplayLinks
+                    aria-live="polite"
                     coordinatesArray={coordinatesArray}
                     startCoordinates={directionOptions.startCoordinates}
                 />
