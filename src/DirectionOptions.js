@@ -18,6 +18,9 @@ export default function DirectionOptions() {
     // State to manage visibility of DisplayLinks component
     const [showDirections, setShowDirections] = useState(false);
 
+    // State for AccessMap parameters
+    const [accessMapParams, setAccessMapParams] = useState({});
+
     // Function to handle search box input
     // Takes in the location name and an array of [longitude, latitude]
     const handleLocation = (name, coordinates) => {
@@ -42,7 +45,17 @@ export default function DirectionOptions() {
     // Function to handle form submission
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log(directionOptions);
+        
+        // Just get the access map parameters on submit.
+        // We could store them as state in the component,
+        // but this makes things more complicated by bypassing
+        // the default input validation.
+        const accessMapParams = {
+            uphill: document.getElementById("uphill").value,
+            downhill: document.getElementById("downhill").value,
+            avoidBarriers: document.getElementById("avoid-barriers").value,
+            avoidStreets : document.getElementById("avoid-streets").value,
+        }
 
         // Get closest buildings with restrooms satisfying the
         // given filters
@@ -53,6 +66,7 @@ export default function DirectionOptions() {
             5
         ).then((result) => {
             setCoordinatesArray(result);
+            setAccessMapParams(accessMapParams);
             setShowDirections(true);
         }).catch((err) => console.error(err));
     }  
@@ -88,6 +102,9 @@ export default function DirectionOptions() {
           ADA Accessible Restroom
         </label>
       </div>
+
+        <AccessMapParams></AccessMapParams>
+
       <button
         disabled={!directionOptions.startCoordinates}
         type="submit"
@@ -99,8 +116,63 @@ export default function DirectionOptions() {
         <DisplayLinks
           coordinatesArray={coordinatesArray}
           startCoordinates={directionOptions.startCoordinates}
+          accessMapParams={accessMapParams}
         />
       )}
     </form>
   );
+}
+
+
+function AccessMapParams() {
+    return (
+      <fieldset>
+        <legend>Parameters for AccessMap directions</legend>
+        <div>
+        <input
+          id="avoid-barriers"
+          type="checkbox"
+          defaultValue="false"
+        ></input>
+        <label htmlFor="avoid-barriers">Avoid raised curbs and stairs</label>
+        </div>
+        <div>
+        <label htmlFor="avoid-streets">Street avoidance factor (1 = avoid streets, 0 = use streets)</label>
+        <input
+          id="avoid-streets" 
+          type="number"
+          inputMode="decimal"
+          min="0"
+          max="1"
+          step="0.1"
+          defaultValue="0"
+        ></input>
+        </div>
+        <div>
+        <label htmlFor="uphill">Maximum uphill steepness (4-15%)</label>
+        <input
+          id="uphill" 
+          type="number"
+          inputMode="decimal"
+          min="4"
+          max="15"
+          step="0.5"
+          defaultValue="15"
+        ></input>
+        </div>
+        
+        <div>
+        <label htmlFor="downhill">Maximum downhill steepness (4-15%)</label>
+        <input
+          id="downhill"
+          type="number"
+          inputMode="decimal"
+          min="4"
+          max="15"
+          step="0.5"
+          defaultValue="15"
+        ></input>
+        </div>
+      </fieldset>
+    )
 }

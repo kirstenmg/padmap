@@ -7,16 +7,18 @@ const baseClient = mbxClient({ accessToken: token.MAPBOX_TOKEN });
 const directionsService = mbxDirections(baseClient);
 
 // Start and end are objects of {latitute, longitude}
-export function getAccessMapLink(start, end) {
+// accessMapParams contains {uphill, downhill, avoidBarriers, avoidStreets})
+export function getAccessMapLink(start, end, accessMapParams) {
+    console.log(accessMapParams.avoidBarriers);
     return "https://www.accessmap.app/dir?wp="
         + start.longitude + "_" + start.latitude // Start
         + "%27"
         + end.longitude + "_" + end.latitude // End
         + "&region=wa.seattle"
-        + "&sa=" + 0 // Street avoidance
-        + "&mu=" + 0.15 // Maximum uphill steepness
-        + "&md=" + 0.15 // Maximum downhill steepness
-        + "&ab=0"; // Don't avoid barriers
+        + "&sa=" + accessMapParams.avoidStreets // Street avoidance
+        + "&mu=" + (accessMapParams.uphill / 100) // Maximum uphill steepness
+        + "&md=" + (accessMapParams.downhill / 100) // Maximum downhill steepness
+        + "&ab=" + (accessMapParams.avoidBarriers == "true" ? 1 : 0); // Avoid barriers
 }
 
 export function getNavigation(start, end) {
