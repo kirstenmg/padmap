@@ -7,10 +7,10 @@ function BuildingCard({ name, link, distance, time }) { // Include time if you p
     return (
         <div className="building-card">
              <h2 className="building-name">{name}</h2>
-            <h3 className="building-distance">Distance: {distance} meters </h3>
+            <p className="building-distance">Distance is {distance} meters </p>
             {/* Include this if you're displaying time */}
             {/* <p className="building-time">Time: {time} minutes</p> */}
-            <a href={link} target="_blank" rel="noopener noreferrer" className="building-link">Directions</a>
+            <a href={link} target="_blank" rel="noopener noreferrer" className="building-link">Directions to {name}</a>
         </div>
     );
 }
