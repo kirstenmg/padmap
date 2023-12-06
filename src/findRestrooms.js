@@ -37,8 +37,8 @@ export async function getNClosestBuildings(startLocation, requireADA, requireAll
             building: name,   
             latitude: buildingData.latitude,
             longitude: buildingData.longitude,
-            distance: restroomDistances[i],
-            time: 0 // TODO: decide whether to include time
+            distance: restroomDistances[i].distance,
+            time: restroomDistances[i].duration,
         }
     })
 
@@ -86,7 +86,8 @@ export async function calculateDist(start, end) {
         let directionsResponse = await directionsService.getDirections(directionsRequest).send();
 
         // TODO: could handle the case where no route is found
-        return directionsResponse.body.routes[0].distance;
+        let route = directionsResponse.body.routes[0];
+        return {distance: route.distance, duration: route.duration};
     } catch (err) {
         console.error(err.message);
     }
