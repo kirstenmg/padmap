@@ -1,8 +1,7 @@
 .App {
   text-align: center;
-  background-color: #B9E192; /* Soft green background */
+  background-color: #d9e8ca; /* Soft green background */
   color: black; /* Black text */
-  font-family: 'Raleway', sans-serif;
 }
 
 .App-logo {
@@ -17,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #B9E192; /* Soft blue background */
+  background-color: #d9e8ca; /* Soft green background */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +24,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black; /* Black text */
-  font-family: 'Raleway';
+  font-family: 'Noto Serif';
 }
 
 
@@ -82,11 +81,10 @@
   border: 1px solid #ddd;
   padding: 20px;
   margin-bottom: 10px;
-  background-color: #CFEBB6; /* Light background for cards */
+  background-color: #b2cd9a; /* Light background for cards */
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   color: black; /* Black text */
-  font-family: 'Raleway';
   position: relative;
 }
 
