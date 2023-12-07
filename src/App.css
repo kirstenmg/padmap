@@ -129,3 +129,12 @@
   align-items: center;
   justify-content: center;
 }
+
+#accessmap-params {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#accessmap-params div {
+  display: flex;
+  justify-content: space-between;
+}

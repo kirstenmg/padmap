@@ -129,6 +129,7 @@ export default function DirectionOptions() {
             ADA Accessible Restroom
           </label>
         </div>
+        <AccessMapParams></AccessMapParams>
             <button
                 type="submit"
                 className="get-directions-button"
@@ -170,15 +171,17 @@ export default function DirectionOptions() {
 
 function AccessMapParams() {
     return (
-      <fieldset>
+      <fieldset id="accessmap-params">
         <legend>Parameters for AccessMap directions</legend>
         <div>
-        <input
-          id="avoid-barriers"
-          type="checkbox"
-          defaultValue="false"
-        ></input>
-        <label htmlFor="avoid-barriers">Avoid raised curbs and stairs</label>
+            <div>
+                <input
+                id="avoid-barriers"
+                type="checkbox"
+                defaultValue="false"
+                ></input>
+                <label htmlFor="avoid-barriers">Avoid raised curbs and stairs</label>
+            </div>
         </div>
         <div>
         <label htmlFor="avoid-streets">Street avoidance factor (1 = avoid streets, 0 = use streets)</label>
