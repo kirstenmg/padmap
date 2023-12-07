@@ -107,31 +107,28 @@ export default function DirectionOptions() {
                 handleLocation={handleLocation}
                 value={directionOptions.startLocName}
             />
-            <div>
-                <label htmlFor="all-gender-checkbox">
-                    <input
-                        type="checkbox"
-                        name="isAllGender"
-                        checked={directionOptions.isAllGender}
-                        onChange={handleCheckboxChange}
-                        aria-checked={directionOptions.isAllGender}
-                    />
-                    All Gender Restroom
-                </label>
-            </div>
-            <div>
-                <label htmlFor="ada-checkbox">
-                    <input
-                        type="checkbox"
-                        name="isADA"
-                        checked={directionOptions.isADA}
-                        onChange={handleCheckboxChange}
-                        aria-checked={directionOptions.isADA}
-                    />
-                    ADA Accessible Restroom
-                </label>
-            </div>
-            <AccessMapParams></AccessMapParams>
+            <div className="checkbox-group">
+          <label htmlFor="all-gender-checkbox">
+            <input
+              type="checkbox"
+              name="isAllGender"
+              checked={directionOptions.isAllGender}
+              onChange={handleCheckboxChange}
+              id="all-gender-checkbox"
+            />
+            All Gender Restroom
+          </label>
+          <label htmlFor="ada-checkbox">
+            <input
+              type="checkbox"
+              name="isADA"
+              checked={directionOptions.isADA}
+              onChange={handleCheckboxChange}
+              id="ada-checkbox"
+            />
+            ADA Accessible Restroom
+          </label>
+        </div>
             <button
                 type="submit"
                 className="get-directions-button"
