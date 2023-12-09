@@ -103,6 +103,10 @@ export default function DirectionOptions() {
         <form onSubmit={handleSubmit} aria-labelledby="form-heading">
             <h1 id="form-heading">Pad Map</h1>
             <h2 id="form-heading">Find free menstrual products near you!</h2>
+            <p id="form-heading">The <a href="https://facilities.uw.edu/catalog/free-menstrual-product-program"> free menstrual product program</a> is provided by the UW Building Services Department.
+               Select a start location below and set your restroom preference. Click on Get Directions to find the 5 closest buildings with free menstrual products near you!
+               Please only take what is needed to sustain this service. </p>
+            <br />
             <Search
                 handleLocation={handleLocation}
                 value={directionOptions.startLocName}
@@ -129,7 +133,10 @@ export default function DirectionOptions() {
             ADA Accessible Restroom
           </label>
         </div>
-        <AccessMapParams></AccessMapParams>
+            <br />
+            <p id="form-heading">PadMap links to Access Map, a map that provides accessible path finding in Seattle. You may customize the path by selecting parameters below, and then click on Get Directions.</p>
+            <br />
+            <AccessMapParams></AccessMapParams>
             <button
                 type="submit"
                 className="get-directions-button"
